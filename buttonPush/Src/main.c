@@ -104,7 +104,7 @@ int main(void)
 	  	{
 	  		 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET); //LED ligado
 	  	}
-	  	 else //botão não está pressionado
+	  else //botão não está pressionado
 	  	{
 	  		 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET); //LED desligado
 	  	}
