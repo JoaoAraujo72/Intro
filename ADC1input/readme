@@ -1,0 +1,1 @@
+programa para ler o input analógico na porta PA0; retorna um valor 8bit (0 - 255) 
